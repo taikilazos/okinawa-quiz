@@ -120,6 +120,8 @@ class Game {
             this.hidePhoto();
         });
         
+        
+        
         // Navigation arrows
         document.getElementById('prevPhoto').addEventListener('click', () => {
             this.showPreviousPhoto();
@@ -358,6 +360,8 @@ class Game {
     hidePhoto() {
         document.getElementById('photoModal').style.display = 'none';
     }
+    
+    
     
     gameLoop() {
         this.update();
